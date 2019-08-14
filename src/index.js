@@ -6,6 +6,7 @@ const app = express();
 
 // settings
 app.set('port', 3000);
+app.set('nameWeb','Rutas Andaki');
 app.set('views', path.join(__dirname, 'views'));
 
 app.engine('html', require('ejs').renderFile)
